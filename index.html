@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La sociedad de la nieve</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        background-color: #7388c4;
+        color: rgb(9, 23, 41);
+        margin: 5px;
+    }
+
+    header {
+        background-color: rgb(152, 151, 238);
+        text-align: center;
+
+    }
+
+
+    header h1 {
+        float: center;
+    }
+
+    .menu {
+        display: flex;
+        background-color: aqua;
+        padding: 10px;
+        float: center;
+
+    }
+
+    .menu a {
+        /* todos las etiquetas a dentro de menu*/
+        color: black;
+        text-align: center;
+        padding: 30px 65px;
+        text-decoration: none;
+
+    }
+
+    menu a:hover {
+        background-color: aqua;
+
+    }
+
+    .contenido {
+        margin-top: 5px;
+
+    }
+
+    #imagen {
+        /* para centrar imagen #id .class*/
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+    }
+
+    .imagen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 250px;
+        grid-gap: 20px;
+        padding: 100px 0;
+    }
+
+    .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .box:nth-child(1) {
+        grid-column-start: span 2;
+    }
+
+    .box:nth-child(4) {
+        grid-column-start: span 2;
+    }
+
+    @media(max-width:991px) {
+        .container {
+            padding: 30px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .box:nth-child(1) {
+            grid-column-start: span 1;
+        }
+
+        .box:nth-child(4) {
+            grid-column-start: span 1;
+        }
+    }
+
+    body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    section {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  background-color: cadetblue;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>
+            Analisis de la sociedad de la nieve
+        </h1>
+    </header>
+    <nav class="menu">
+        <a href="#1">
+            <h3>1. Como empezo</h3>
+        </a>
+        <a href="#2">
+            <h3>2. Primer dia</h3>
+        </a>
+        <a href="#3">
+            <h3>3. Supervivencia</h3>
+        </a>
+        <a href="#4">
+            <h3>4. Sociedad de la nieve</h3>
+        </a>
+        <a href="#5">
+            <h3>5. Desesperacion</h3>
+        </a>
+        <a href="#Esperanza">
+            <h3>6. Esperanza</h3>
+        </a>
+    </nav>
+    <center><img src="Nieve.avif" width="700" weight="700"></center>
+    <section>
+        <h2>1. Como empezo</h2>
+        <p>Todo esto inicia por un accidente tragico en un viaje de avion, donde por una enorme falla del piloto, donde
+            no se dio cuenta que se encontaba muy cerca de las cordilleras andinas, en un ultimo intento desesperado por
+            salvar a la tripulacion intenta elevar el avion lo mas que pudo para evitar un choque directo, sin embargo,
+            el avion cruza la montaña pero una mitad de el choca en ella, dejando muertos a todos los pasajeros de la
+            parte de atras mientras que la parte de adelante cayo relativamente bien deslizandose por la montaña y
+            finalemente deteniendose, dando inicio a la pelicula </p>
+    </section>
+    <section>
+        <h2>2. Primer dia</h2>
+        <p> El primer dia no fue facil, la situacion era terrible, acababan de aterrizar en un lugar practicamente
+            inospito, sin civilizacion, con recursos muy limitados y varios heridos, pese a la situacion los desseos de
+            la tripulacion por vivir eran mas grandes asi que guardando esperanza a que alguien los encuentre empiezan a
+            actuar.
+        </p>
+        <p>
+            Estando a menos de 30 grados bajo cero, los sobrevivientes empiezana cubrir el avion con todas sus maletas
+            para mermar un poco la temperatura, aun asi era casi insoportable y los mas heridos no lograrons pasar de
+            esa noche
+        </p>
+    </section>
+    <section>
+        <h2>3. Supervivencia</h2>
+        <p>
+            Los supervivientes se dividen en diferentes tareas que deben realizar, las tareas son depende a las
+            aptitudes
+            que tienen, generando una mayor responsabilidad en cada uno de ellos, dandoles motivacion durante estas
+            tareas, todos esperaban que alguien venga a recogerlos y no estaban rendidos
+        </p>
+    </section>
+    <section>
+        <h2>4. Sociedad de la nieve</h2>
+        <p>
+            Al principio los sobrevivientes llegaron a convir mucho los unos a los otros, incluso muchos afirmaban que
+            se
+            sentian como una familia, demsotrando como actua una sociedad, cada uno se tenia confianza y vivian en un
+            ambiente de familia
+        </p>
+        <p>
+            Debido a que estaban en una situacion extrema de crisis, tomaban decisiones que eran muy poco eticas,
+            dejando
+            todos los valores atras, pues su sociedad lo necesitaba para sobrevivir, asi fueron dando soluciones que
+            nadie tomaria, sin adapatarse a la necesidad de los demas, gracias a esto puedieron sobrevivir mas tiempo
+        </p>
+    </section>
+    <section>
+        <h2>5. Desesperacion</h2>
+        <p>
+            Pasado los dias los uspervivientes empezaron a entrar en una gran desesperacion, dicho antes, la comida se
+            les acabo con el paso del tiempo, se quedaron sin recursos y no podian conseguir otros ya que estaban en la
+            cima de una montaña, si no hacian algo, este seria el fin de sus vidas, asi a alguien se le ocurrio que para
+            poder sobrevivir necesitan recurrir al canibalismo, comerse los cuerposd e los ya fallecidos, su argumento
+            fue que moririan en dias si no comian nada, asi mucha gente acepto, y otros despues de dudar mucho y darse
+            ceunta de su dura realidad tambien
+        </p>
+    </section>
+    <section>
+        <h2>
+            6. Esperanza
+        </h2>
+        <p>
+            Despues de tantos horrores, de haber recurrido a acciones muy desesperadas, los sobrevivientes aun no
+            perdian la esperanza, estaban aferrados a la vida, querian ver a sus familias, seguir con sus vidas, volver
+            a su hogar, y vivir todo lo que no pudieron vivir antes, pues habia desde los mas jovenes hasta los mas
+            viejos. La esperanza dio frutos y al final si fueron rescatados, dando mensaje que hayq ue ponerse firme
+            ante las complicaciones de la vida, puediendo salir adelante todos los dias malos que haya
+        </p>
+    </section>
+    <div class="container">
+        <div class="box">
+            <img src="descarga (1).jpg">
+        </div>
+        <div class="box">
+            <img src="La-sociedad-de-la-Nieve-scaled.jpg">
+        </div>
+        <div class="box">
+            <img src="es-ES_sots_main_theatrical_vertical_27x40_cmyk_pre_1.jpg">
+        </div>
+        <div class="box">
+            <img src="Nieve.avif">
+        </div>
+        <div class="box">
+            <img src="la-sociedad-de-la-nieve-en-netflix (1).webp">
+        </div>
+    </div>
+</body>
+
+</html>
